@@ -58,3 +58,86 @@ opacity: 0.7;
     height: 100%;
     object-fit: cover;
 }
+
+.servicos{
+width: 100%;
+height: auto;
+display: flex;
+justify-content: space-around;
+margin: 40px 0 ;
+padding: 0 30px;
+}
+
+.item-servicos{
+width: 22%;
+height: auto;
+}
+
+.item-servicos img{
+width: 100%;
+height: 270px;
+object-fit: cover;
+}
+
+.item-sevicos h2{
+    background-color: #000;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: -5px;
+    padding: 5px 0;
+}
+
+.publicidade{
+    width: 100%;
+    background-color: #7fd3b4;
+    padding: 30px 0;
+}
+
+.publicidade h1{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.informacoes {
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between; /* texto à esquerda, imagem à direita */
+    align-items: center;
+    gap: 30px;
+}
+.texto-informacoes {
+    flex: 1;
+}
+.texto-informacoes h1 {
+    font-size: 28px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #333;
+}
+.texto-informacoes h2 {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    color: #555;
+}
+.texto-informacoes p {
+    text-align: left;   /* alinha o texto à esquerda */
+  margin-left: 50px;  /* dá um espaço da borda esquerda */
+  margin-top: 50px; 
+}
+.logo-rotweiller {
+    flex: 1;
+    text-align: right;
+    margin: auto;
+}
+
+.logo-rotweiller img {
+    width: 20%;
+    height: 30%;
+    border-radius: 10px; /* deixa a imagem mais elegante */
+}
