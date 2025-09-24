@@ -1,3 +1,8 @@
+*{
+    font-family: sans-serif;
+}
+
+
 header{
     background-color: #7fd3b4;
     width: 100%;
@@ -40,10 +45,9 @@ nav ul li:first-child{
 }
 nav ul li a{
     text-decoration: none;
-    color: rgb(77, 77, 77);
-    font-size: 12px;
+    color: #333;
+    font-size: 1.4;
     text-transform: uppercase;
-    font-family: sans-serif;
 }
 nav ul li a:hover{
 opacity: 0.7;
@@ -74,21 +78,21 @@ height: auto;
 }
 
 .item-servicos img{
-width: 100%;
-height: 270px;
-object-fit: cover;
+ width: 100%;
+    height: 250px;    /* altura fixa */
+    object-fit: cover; /* corta o excesso sem distorcer */
+    border-radius: 5px; /* opcional */
 }
 
-.item-sevicos h2{
-    background-color: #000;
-    color: #ffffff;
+.item-servicos h2{
+   background-color: #000;
+    color: #fff;
     margin: 0;
     text-align: center;
-    font-family: sans-serif;
-    margin-top: -5px;
-    padding: 5px 0;
+    font-size: 1.2rem;;
+    padding: 8px 0;
+    width: 100%;        /* ocupa a largura toda da imagem */
 }
-
 .publicidade{
     width: 100%;
     background-color: #7fd3b4;
@@ -99,45 +103,73 @@ object-fit: cover;
     text-align: center;
     font-size: 40px;
     text-transform: uppercase;
-    font-family: sans-serif;
 }
-.informacoes {
-    width: 80%;
-    margin: 40px auto;
-    display: flex;
-    justify-content: space-between; /* texto à esquerda, imagem à direita */
-    align-items: center;
-    gap: 30px;
+/*###################Cliente##########################*/
+
+.Cliente{
+width: 100%;
+height: auto;
+display: flex;
+justify-content: space-around;
+margin: 40px auto;
+padding: 0 30px;
 }
-.texto-informacoes {
-    flex: 1;
-}
-.texto-informacoes h1 {
-    font-size: 28px;
-    font-family: sans-serif;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    color: #333;
-}
-.texto-informacoes h2 {
-    font-size: 20px;
-    font-family: sans-serif;
-    margin-bottom: 10px;
-    color: #555;
-}
-.texto-informacoes p {
-    text-align: left;   /* alinha o texto à esquerda */
-  margin-left: 50px;  /* dá um espaço da borda esquerda */
-  margin-top: 50px; 
-}
-.logo-rotweiller {
-    flex: 1;
-    text-align: right;
-    margin: auto;
+.conteudo-cliente{
+    width: 70%;
+    height: auto;
+
 }
 
-.logo-rotweiller img {
-    width: 20%;
-    height: 30%;
-    border-radius: 10px; /* deixa a imagem mais elegante */
+.Cliente .conteudo-cliente h1{
+    font-size: 1.4rem;
+
+}
+.Cliente .conteudo-cliente p{
+font-size: 1.2rem;
+line-height: 1.8rem;
+}
+.cliente-img{
+    width: 30%;
+    height: auto;
+}
+.cliente-img{
+    width: 100%;
+}
+.atendimento{
+    width: 95%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+    padding: 0px;
+}
+.foto-atendimento, .atendimento-conteudo{
+    width: 50%;
+    height: auto;
+
+}
+.foto-atendimento img{
+    width: 100%;
+}
+.atendimento-conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: gold;
+}
+.atendimento h1{
+    font-size: 3rem;
+
+}
+.atendimento h2{
+    font-size: 2.5rem;
+}
+
+.fale-conosco{
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
 }
