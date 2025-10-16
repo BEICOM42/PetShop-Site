@@ -380,3 +380,110 @@ nav ul li a:hover{
     padding: 5px 0;
     font-size: 1.4rem;
 }
+
+/* ########################## pagina 3 ########################## */
+
+/* ########################## ADESTRAMENTO - PARTE INFERIOR ########################## */
+
+.adestramento-inferior {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    font-family: sans-serif;
+}
+
+/* Texto */
+.texto-adestramento {
+    width: 80%;
+    text-align: justify;
+    line-height: 1.7rem;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.texto-adestramento p {
+    margin-bottom: 15px;
+}
+
+/* Galeria */
+.galeria-adestramento {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.galeria-adestramento img {
+    width: 180px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* FAQ */
+.faq {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #222;
+}
+
+/* Itens do FAQ */
+.faq details {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+}
+
+.faq summary {
+    background-color: #666;
+    color: #fff;
+    padding: 12px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.faq summary:hover {
+    background-color: #444;
+}
+
+.faq details[open] summary {
+    background-color: #333;
+}
+
+.faq details p {
+    padding: 15px;
+    margin: 0;
+    background-color: #fff;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .galeria-adestramento img {
+        width: 45%;
+        height: auto;
+    }
+
+    .texto-adestramento,
+    .faq {
+        width: 95%;
+    }
+}
+
+
+
