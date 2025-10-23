@@ -486,4 +486,14 @@ nav ul li a:hover{
 }
 
 
+/* ########################## Hotel-resorte ########################## */
 
+.texto-hotel{
+    width: 80%;
+    height: auto;
+    margin: 40px auto;
+}
+
+.fotos img{
+    width: 23%;
+}
